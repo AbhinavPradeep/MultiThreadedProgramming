@@ -17,7 +17,7 @@ namespace MultiThreadedProgramming
             {
                 Thread.Sleep(10000);
                 Balance -= Amount;
-                System.Console.WriteLine($"Balance = ${Balance}");
+                System.Console.WriteLine($"Balance left after withdrawl = ${Balance}");
             }
             else
             {
