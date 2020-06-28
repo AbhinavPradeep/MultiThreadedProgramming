@@ -13,6 +13,7 @@ namespace MultiThreadedProgramming
 
         public void Withdraw(double Amount)
         {
+            System.Console.WriteLine($"Trying to withdraw ${Amount}");
             if (Balance >= Amount)
             {
                 Thread.Sleep(10000);
