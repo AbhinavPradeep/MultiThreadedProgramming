@@ -15,7 +15,7 @@ namespace MultiThreadedProgramming
             {
                 Thread thread = new Thread(() =>
                 {
-                    Savings.Withdraw(100.00);
+                    Savings.Withdraw(90.00);
                 });
                 ArrayOfThreads[i] = thread;
             }
