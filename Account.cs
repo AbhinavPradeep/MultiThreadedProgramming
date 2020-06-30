@@ -16,7 +16,7 @@ namespace MultiThreadedProgramming
             
         public void Withdraw(double Amount)
         {
-            lock (this)
+            lock (Padlock)
             {
                 System.Console.WriteLine($"Trying to withdraw ${Amount}");
                 if (Balance >= Amount)
